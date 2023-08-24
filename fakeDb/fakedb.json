@@ -1,0 +1,335 @@
+{
+  "pizza": [
+    {
+      "id": 0,
+      "name": "Margherita",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
+      "ingredients": ["tomato sauce", "mozzarella"],
+      "spicy": false,
+      "vegetarian": true,
+      "price": 17.0,
+      "image": "https://i.imgur.com/8B8YLOo.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": 1,
+      "name": "Pepperoni",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
+      "ingredients": ["tomato sauce", "mozzarella", "double pepperoni"],
+      "spicy": false,
+      "vegetarian": false,
+      "price": 20.0,
+      "image": "https://i.imgur.com/OHHctnf.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Rome",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
+      "ingredients": [
+        "tomato sauce",
+        "mozzarella",
+        "ham",
+        "mushrooms",
+        "beef cubes"
+      ],
+      "spicy": false,
+      "vegetarian": false,
+      "price": 25.75,
+      "image": "https://i.imgur.com/3ZTwCfz.png",
+      "rating": 4.5
+    },
+    {
+      "id": 3,
+      "name": "American Spicy",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
+      "ingredients": [
+        "tomato sauce",
+        "mozzarella",
+        "pepperoni",
+        "tomatoes",
+        "green pepper",
+        "red onion",
+        "jalapenos",
+        "Samourai sauce"
+      ],
+      "spicy": true,
+      "vegetarian": false,
+      "price": 30.25,
+      "image": "https://i.imgur.com/dyoOLCO.png",
+      "rating": 4.5
+    },
+    {
+      "id": 4,
+      "name": "Quattro Stagioni",
+      "description": "",
+      "ingredients": [
+        "tomato sauce",
+        "mozzarella",
+        "ham",
+        "pepperoni",
+        "mushrooms",
+        "green pepper"
+      ],
+      "spicy": false,
+      "vegetarian": false,
+      "price": 27.25,
+      "image": "https://i.imgur.com/wOEuXuV.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": 5,
+      "name": "Pork & Feta",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
+      "ingredients": [
+        "tomato sauce",
+        "mozzarella",
+        "feta cheese",
+        "ham",
+        "pork cubes",
+        "red onion"
+      ],
+      "spicy": false,
+      "vegetarian": false,
+      "price": 27.25,
+      "image": "https://i.imgur.com/48Zw4K3.png",
+      "rating": 4.5
+    },
+    {
+      "id": 6,
+      "name": "Quattro Formaggi",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
+      "ingredients": [
+        "mozzarella",
+        "cheddar cheese",
+        "emmentaler",
+        "blue cheese",
+        "oregano"
+      ],
+      "spicy": false,
+      "vegetarian": true,
+      "price": 35.15,
+      "image": "https://i.imgur.com/MDrTvkI.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": 7,
+      "name": "Carnivora",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
+      "ingredients": [
+        "tomato sauce",
+        "mozzarella",
+        "chicken breast",
+        "beef cubes",
+        "pepperoni",
+        "bacon"
+      ],
+      "spicy": false,
+      "vegetarian": false,
+      "price": 27.25,
+      "image": "https://i.imgur.com/0vPtSSO.png",
+      "rating": 4.5
+    },
+    {
+      "id": 8,
+      "name": "Louisiana Chicken",
+      "description": "",
+      "ingredients": [
+        "marinated chicken",
+        "TABASCO spicy sauce",
+        "red pepper sauce",
+        "blue cheese",
+        "green pepper",
+        "red onion"
+      ],
+      "spicy": true,
+      "vegetarian": false,
+      "price": 20.0,
+      "image": "https://i.imgur.com/lZtwJgy.png",
+      "rating": 4.5
+    },
+    {
+      "id": 9,
+      "name": "Honey Mustard Chicken",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
+      "ingredients": [
+        "tomato sauce",
+        "mozzarella",
+        "marinated chicken in Honey Mustard sauce",
+        "cheddar cheese",
+        "red onion"
+      ],
+      "spicy": false,
+      "vegetarian": false,
+      "price": 19.8,
+      "image": "https://i.imgur.com/SoZu61g.png",
+      "rating": 4.5
+    },
+    {
+      "id": 10,
+      "name": "Hawaiian",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
+      "ingredients": [
+        "mozzarella",
+        "sweet chilli sauce",
+        "pepperoni",
+        "pineapple",
+        "jalapenos",
+        "red onion"
+      ],
+      "spicy": true,
+      "vegetarian": false,
+      "price": 27.25,
+      "image": "https://i.imgur.com/mqTgvgl.png",
+      "rating": 4.5
+    },
+    {
+      "id": 11,
+      "name": "Classic",
+      "description": "",
+      "ingredients": [
+        "tomato sauce",
+        "mozzarella",
+        "ham",
+        "mushrooms",
+        "olives"
+      ],
+      "spicy": false,
+      "vegetarian": false,
+      "price": 27.25,
+      "image": "https://i.imgur.com/k6IGrUd.png",
+      "rating": 4.5
+    },
+    {
+      "id": 12,
+      "name": "Pastrami",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
+      "ingredients": [
+        "tomato sauce",
+        "mozzarella",
+        "pastrami",
+        "salty cheese",
+        "baked green pepper",
+        "red onion"
+      ],
+      "spicy": false,
+      "vegetarian": false,
+      "price": 27.25,
+      "image": "https://i.imgur.com/yOe5RtC.png",
+      "rating": 4.5
+    },
+    {
+      "id": 13,
+      "name": "Hot Pastrami",
+      "description": "",
+      "ingredients": [
+        "Honey Mustard sauce",
+        "mozzarella",
+        "pastrami",
+        "sausages",
+        "chilli pepper",
+        "red onion"
+      ],
+      "spicy": true,
+      "vegetarian": false,
+      "price": 27.25,
+      "image": "https://i.imgur.com/ipMA5LP.png",
+      "rating": 4.5
+    },
+    {
+      "id": 14,
+      "name": "Country",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
+      "ingredients": [
+        "tomato sauce",
+        "mozzarella",
+        "bacon",
+        "corn",
+        "onion",
+        "mushrooms"
+      ],
+      "spicy": false,
+      "vegetarian": false,
+      "price": 27.25,
+      "image": "https://i.imgur.com/E67Xf8Y.png",
+      "rating": 4.5
+    },
+    {
+      "id": 15,
+      "name": "Hot Cheese",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
+      "ingredients": [
+        "tomato sauce",
+        "mozzarella",
+        "cheddar cheese",
+        "salty cheese",
+        "tomatoes",
+        "chilli pepper",
+        "oregano"
+      ],
+      "spicy": true,
+      "vegetarian": true,
+      "price": 27.25,
+      "image": "https://i.imgur.com/v4sa2cA.png",
+      "rating": 4.5
+    },
+    {
+      "id": 16,
+      "name": "Ocean",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
+      "ingredients": [
+        "tomato sauce",
+        "mozzarella",
+        "tuna",
+        "corn",
+        "onion",
+        "olives"
+      ],
+      "spicy": false,
+      "vegetarian": false,
+      "price": 30,
+      "image": "https://i.imgur.com/w5IQ2rX.png",
+      "rating": 4.5
+    },
+    {
+      "id": 17,
+      "name": "BBQ",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
+      "ingredients": [
+        "tomato sauce",
+        "mozzarella",
+        "BBQ sauce",
+        "onion",
+        "corn",
+        "bacon",
+        "mushrooms",
+        "sausages"
+      ],
+      "spicy": false,
+      "vegetarian": false,
+      "price": 28.5,
+      "image": "https://i.imgur.com/znqS9KD.png",
+      "rating": 4.5
+    },
+    {
+      "id": 18,
+      "name": "Mexicana",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
+      "ingredients": [
+        "tomato sauce",
+        "mozzarella",
+        "salsa sauce",
+        "pepperoni",
+        "corn",
+        "onion",
+        "jalapenos",
+        "tortilla chips"
+      ],
+      "spicy": true,
+      "vegetarian": false,
+      "price": 28.5,
+      "image": "https://i.imgur.com/cYpO8RT.png",
+      "rating": 4.5
+    }
+  ]
+}
