@@ -9,7 +9,7 @@ const Main = styled("div")(({ theme }) =>
     background: "#f9f9f9",
     borderTop: "1px solid #eee",
     display: "block",
-
+    px: createFluidValue(0.5, 0)
   })
 );
 const Container = styled("div")(({ theme }) =>
@@ -21,9 +21,11 @@ const Container = styled("div")(({ theme }) =>
 );
 const FooterHead = styled("div")(({ theme }) =>
   theme.unstable_sx({
-    display: "flex",
+    display: { sm: "block", md: "flex" },
+    flexWrap: { xs: "wrap", sm: "wrap", md: "nowrap" },
     justifyContent: "space-between",
     alignItems: "center",
+    flexDirection: { sm: "column", md: "row" },
     width: "100%",
     pt: createFluidValue(2, 3.5),
     pb: createFluidValue(1, 1.5),
@@ -59,14 +61,13 @@ const FooterHead = styled("div")(({ theme }) =>
 const Footer = () => {
   return <Main>
     <Container >
-      <Box sx={{ px: createFluidValue(0.3, 0) }}>
+      <Box>
         <Box sx={{ borderBottom: "2em" }}>
-
           <FooterHead>
-            <Box sx={{ width: "66.67%", }}>
+            <Box sx={{ width: { sm: "100%", xs: "100%", md: "66.67%" }, }}>
               <Typography component="p">Download Best Seller Premium WordPress Themes</Typography>
             </Box>
-            <Box sx={{ width: "33%", textAlign: "right" }}>
+            <Box sx={{ width: { sm: "100%", xs: "100%", md: "33%" }, textAlign: { xs: "start", sm: "start", md: "end" }, py: { xs: '1em', md: "0" } }}>
               <Link href={"/#"} component="a">Download Now</Link>
             </Box>
           </FooterHead>
@@ -75,8 +76,8 @@ const Footer = () => {
           <FooterEnd />
         </Box>
       </Box>
-    </Container>
-  </Main>;
+    </Container >
+  </Main >;
 };
 
 export default Footer;

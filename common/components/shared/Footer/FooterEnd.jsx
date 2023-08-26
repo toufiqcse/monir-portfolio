@@ -19,7 +19,7 @@ const FooterEnd = () => {
     return (
         <Footers>
             <Box sx={{ width: "100%", flex: " 0 0 auto" }}>
-                <Typography sx={{ mb: "0", fontSize: "0.87rem", fontWeight: "300" }} > © {` Monir Hossain. ${years}`}</Typography>
+                <Typography sx={{ mb: "0", fontSize: "0.87rem", fontWeight: "300", textAlign: { xs: "center", sm: "center", md: "start" } }} > © {` Monir Hossain. ${years}`}</Typography>
             </Box>
         </Footers >
     )
