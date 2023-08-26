@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sticky Navbar with Scroll Animation</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .navbar {
+        background-color: #fff;
+        position: relative;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+      .navbar.sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .navbar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+      }
+
+      .navbar li {
+        margin: 0 20px;
+      }
+
+      .navbar a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: color 0.3s ease-in-out;
+      }
+
+      .navbar.sticky a {
+        color: #333;
+      }
+
+      .content {
+        height: 1500px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <!-- Your page content goes here -->
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, ex labore
+      quaerat aspernatur omnis aliquid unde tempora. Quam, iure laborum! Quidem
+      vitae dolor beatae et sed distinctio consequatur cupiditate. Cum. Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Aut iste nesciunt
+      quaerat est doloremque minus molestiae saepe vel reiciendis voluptates
+      obcaecati, cumque quibusdam? Exercitationem, possimus facere. Ipsam
+      dolorem quia minus autem placeat natus aliquid laboriosam asperiores
+      dolor, enim, delectus voluptates culpa cupiditate deserunt ipsum quos
+      numquam dolore, quibusdam deleniti suscipit aspernatur reprehenderit odit
+      exercitationem! Iusto facere qui, itaque vel animi sed eum quas cum magni.
+      Quasi ullam aliquam quo vitae delectus nulla tenetur est ea exercitationem
+      mollitia. Quae dolor laboriosam facilis ad asperiores in mollitia ratione
+      delectus aperiam officia rem possimus, odit neque minima esse nihil quasi
+      itaque dolore perferendis?
+    </div>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 100) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      });
+    </script>
+  </body>
+</html>

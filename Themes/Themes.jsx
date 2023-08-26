@@ -35,8 +35,8 @@ const Themes = ({ children }) => {
       },
 
       bg: {
-        1: "#eaeaea",
-        2: "#d50306",
+        1: "#f9f9f9",
+        2: "#0abf53",
       },
 
       button: {

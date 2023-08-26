@@ -4,10 +4,12 @@ import StyledNav from "./StyledNav/StyledNav";
 const Navbar = () => {
   const router = useRouter();
   const route = router?.route;
+
+
   return (
-    <div style={{ position: "sticky", top: "5px", background: "white" }}>
+    <div style={{ display: route === "/" ? "initial" : "initial", }}>
       <StyledNav />
-    </div>
+    </div >
   );
 };
 

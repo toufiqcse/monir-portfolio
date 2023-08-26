@@ -1,7 +1,7 @@
 const HTML_FONT_SIZE = 16;
 
 const min_width = 320;
-const max_width = 1200;
+const max_width = 1140;
 
 const DEFAULT_MIN_SCREEN = min_width / HTML_FONT_SIZE; // (rem)
 const DEFAULT_MAX_SCREEN = max_width / HTML_FONT_SIZE; // (rem)

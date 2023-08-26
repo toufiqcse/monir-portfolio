@@ -1,0 +1,23 @@
+.fixed_header {
+  position: relative;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  animation: translateHeader 0.5s;
+  background: #fff;
+}
+@keyframes translateHeader {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
