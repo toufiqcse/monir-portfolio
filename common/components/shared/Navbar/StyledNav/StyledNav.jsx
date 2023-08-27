@@ -31,13 +31,13 @@ import { createFluidValue } from "@/common/hooks/FluidValue/mix/FluidValue";
 import { useRouter } from "next/router";
 import { IoSearch } from "react-icons/io5";
 import Link from "next/link";
-import { FacebookRounded, LinkedIn, Twitter, YouTube } from "@mui/icons-material";
+import { AbcOutlined, CallEndRounded, FacebookRounded, LinkedIn, Twitter, Web, YouTube } from "@mui/icons-material";
 
 
 
 const Title = styled("div")(({ theme }) =>
   theme.unstable_sx({
-    fontSize: createFluidValue(0.9, 1.5),
+    fontSize: createFluidValue(1.2, 1.5),
     pl: ".2em",
 
     "a:first-of-type": {
@@ -53,9 +53,9 @@ const Title = styled("div")(({ theme }) =>
 );
 
 const NavLinks = [
-  { name: "About", href: "/about", icon: <HomeIcon /> },
-  { name: "Free Wordpress Template", href: "/free-template", icon: <StoreIcon /> },
-  { name: "Contact", href: "/contact", icon: <WidgetsIcon /> },
+  { name: "About", href: "/about", icon: <AbcOutlined /> },
+  { name: "Free Wordpress Template", href: "/free-template", icon: <Web /> },
+  { name: "Contact", href: "/contact", icon: <CallEndRounded /> },
 
 ];
 
@@ -270,7 +270,7 @@ const StyledNav = () => {
 
 
         <MenuButton >
-          <IconButton size="small" onClick={() => setOpen(true)}>
+          <IconButton size="medium" onClick={() => setOpen(true)}>
             <MenuIcon fontSize="inherit" />
           </IconButton>
         </MenuButton>

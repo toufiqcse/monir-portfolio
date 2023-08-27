@@ -4,32 +4,33 @@ import Image from "next/image";
 import aboutImg from "@/common/content/images/_about-img.jpg";
 import { aboutDetails } from "@/fakeDb/data";
 
-const Main = styled("div")(({ theme }) => theme.unstable_sx({}));
-const Container = styled("div")(({ theme }) =>
+export const Main = styled("div")(({ theme }) => theme.unstable_sx({}));
+export const Container = styled("div")(({ theme }) =>
   theme.unstable_sx({
     maxWidth: "1140px",
     margin: "0 auto",
     px: createFluidValue(0.5, 0),
   })
 );
-const AboutHead = styled("div")(({ theme }) =>
+export const AboutHead = styled("div")(({ theme }) =>
   theme.unstable_sx({
     py: createFluidValue(4, 5),
   })
 );
-const HeadContent = styled("div")(({ theme }) =>
+export const HeadContent = styled("div")(({ theme }) =>
   theme.unstable_sx({
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    p: {
-      fontSize: createFluidValue(2, 3),
+    flexDirection: "column",
+    "& p": {
+      fontSize: createFluidValue(1.8, 2.5),
       fontWeight: 600,
       lineHeight: "1.2",
     },
   })
 );
-const AboutSection = styled("div")(({ theme }) =>
+export const AboutSection = styled("div")(({ theme }) =>
   theme.unstable_sx({
     display: "flex",
     alignItems: "center",
@@ -76,7 +77,7 @@ const AboutRoute = () => {
       <Container>
         <AboutHead>
           <HeadContent>
-            <Typography variant="p">{"About Monir"}</Typography>
+            <Typography component="p">{"About Monir"}</Typography>
           </HeadContent>
         </AboutHead>
         <AboutSection>

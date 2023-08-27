@@ -32,7 +32,7 @@ const ContactContent = styled("div")(({ theme }) =>
     justifyContent: "center",
     flexDirection: "column",
     "p:first-of-type": {
-      fontSize: createFluidValue(2, 3),
+      fontSize: createFluidValue(1.8, 2.5),
       fontWeight: 600,
       lineHeight: "1.2",
       mb: "0.8em",
@@ -48,10 +48,14 @@ const ContactContent = styled("div")(({ theme }) =>
 const ContactBox = styled("div")(({ theme }) =>
   theme.unstable_sx({
     display: "grid",
-    gridTemplateColumns: "repeat(3, 1fr)",
+    gridTemplateColumns: {
+      xs: "repeat(1, 1fr)",
+      sm: "repeat(2, 1fr)",
+      md: "repeat(3, 1fr)",
+    },
     gridTemplateRows: "1fr",
     gridColumnGap: "20px",
-    gridRowGap: "0px",
+    gridRowGap: "10px",
     pb: createFluidValue(4, 5),
   })
 );
